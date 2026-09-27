@@ -1,0 +1,933 @@
+[
+  {
+    "student_id": "STU-001",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-001",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-001",
+    "week": 5,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 59.6/100."
+  },
+  {
+    "student_id": "STU-002",
+    "week": 7,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-002",
+    "week": 7,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-002",
+    "week": 7,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 40.7/100."
+  },
+  {
+    "student_id": "STU-003",
+    "week": 2,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 32.6/100."
+  },
+  {
+    "student_id": "STU-003",
+    "week": 8,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-003",
+    "week": 8,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-004",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-004",
+    "week": 6,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-004",
+    "week": 8,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 57.0/100."
+  },
+  {
+    "student_id": "STU-005",
+    "week": 7,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-005",
+    "week": 7,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-005",
+    "week": 7,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 33.3/100."
+  },
+  {
+    "student_id": "STU-006",
+    "week": 3,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 32.5/100."
+  },
+  {
+    "student_id": "STU-007",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-007",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-007",
+    "week": 8,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 83.0/100."
+  },
+  {
+    "student_id": "STU-008",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-008",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-008",
+    "week": 6,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 48.5/100."
+  },
+  {
+    "student_id": "STU-009",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-009",
+    "week": 6,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-009",
+    "week": 6,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 89.5/100."
+  },
+  {
+    "student_id": "STU-010",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-010",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-010",
+    "week": 7,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 49.9/100."
+  },
+  {
+    "student_id": "STU-011",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-011",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-011",
+    "week": 5,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 39.8/100."
+  },
+  {
+    "student_id": "STU-012",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-012",
+    "week": 6,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-012",
+    "week": 7,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 84.4/100."
+  },
+  {
+    "student_id": "STU-013",
+    "week": 8,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-013",
+    "week": 8,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-013",
+    "week": 8,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 38.8/100."
+  },
+  {
+    "student_id": "STU-014",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-014",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-014",
+    "week": 5,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 39.2/100."
+  },
+  {
+    "student_id": "STU-015",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-015",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-015",
+    "week": 7,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 57.7/100."
+  },
+  {
+    "student_id": "STU-016",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-016",
+    "week": 6,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-016",
+    "week": 6,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 32.7/100."
+  },
+  {
+    "student_id": "STU-017",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-017",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-017",
+    "week": 5,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 37.2/100."
+  },
+  {
+    "student_id": "STU-018",
+    "week": 5,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 31.9/100."
+  },
+  {
+    "student_id": "STU-019",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-019",
+    "week": 6,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-019",
+    "week": 8,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 78.7/100."
+  },
+  {
+    "student_id": "STU-020",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-020",
+    "week": 6,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-020",
+    "week": 6,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 47.0/100."
+  },
+  {
+    "student_id": "STU-021",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-021",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-021",
+    "week": 5,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 42.1/100."
+  },
+  {
+    "student_id": "STU-022",
+    "week": 4,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 29.5/100."
+  },
+  {
+    "student_id": "STU-023",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-023",
+    "week": 6,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-023",
+    "week": 9,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 66.1/100."
+  },
+  {
+    "student_id": "STU-024",
+    "week": 8,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 26.5/100."
+  },
+  {
+    "student_id": "STU-025",
+    "week": 8,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-025",
+    "week": 8,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-025",
+    "week": 9,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 32.9/100."
+  },
+  {
+    "student_id": "STU-026",
+    "week": 1,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 38.3/100."
+  },
+  {
+    "student_id": "STU-026",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-026",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-027",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-027",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-027",
+    "week": 5,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 41.4/100."
+  },
+  {
+    "student_id": "STU-028",
+    "week": 7,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-028",
+    "week": 7,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-028",
+    "week": 8,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 80.8/100."
+  },
+  {
+    "student_id": "STU-029",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-029",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-029",
+    "week": 8,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 37.9/100."
+  },
+  {
+    "student_id": "STU-030",
+    "week": 3,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 26.3/100."
+  },
+  {
+    "student_id": "STU-030",
+    "week": 7,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-030",
+    "week": 7,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-031",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-031",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-031",
+    "week": 8,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 88.6/100."
+  },
+  {
+    "student_id": "STU-032",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-032",
+    "week": 6,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-032",
+    "week": 6,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 44.5/100."
+  },
+  {
+    "student_id": "STU-033",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-033",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-033",
+    "week": 5,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 59.9/100."
+  },
+  {
+    "student_id": "STU-034",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-034",
+    "week": 6,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-034",
+    "week": 6,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 34.1/100."
+  },
+  {
+    "student_id": "STU-035",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-035",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-035",
+    "week": 5,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 41.5/100."
+  },
+  {
+    "student_id": "STU-036",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-036",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-036",
+    "week": 8,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 57.5/100."
+  },
+  {
+    "student_id": "STU-037",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-037",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-037",
+    "week": 5,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 34.3/100."
+  },
+  {
+    "student_id": "STU-038",
+    "week": 1,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 23.1/100."
+  },
+  {
+    "student_id": "STU-039",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-039",
+    "week": 9,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 28.4/100."
+  },
+  {
+    "student_id": "STU-040",
+    "week": 7,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-040",
+    "week": 7,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-040",
+    "week": 7,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 48.3/100."
+  },
+  {
+    "student_id": "STU-041",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-041",
+    "week": 6,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-041",
+    "week": 8,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 34.6/100."
+  },
+  {
+    "student_id": "STU-042",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-042",
+    "week": 7,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-042",
+    "week": 9,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 74.0/100."
+  },
+  {
+    "student_id": "STU-043",
+    "week": 1,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 25.7/100."
+  },
+  {
+    "student_id": "STU-044",
+    "week": 9,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-044",
+    "week": 9,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-044",
+    "week": 9,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 38.5/100."
+  },
+  {
+    "student_id": "STU-045",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-045",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-045",
+    "week": 5,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 41.0/100."
+  },
+  {
+    "student_id": "STU-046",
+    "week": 5,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-046",
+    "week": 5,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-046",
+    "week": 5,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 52.0/100."
+  },
+  {
+    "student_id": "STU-047",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-047",
+    "week": 6,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-047",
+    "week": 7,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 91.1/100."
+  },
+  {
+    "student_id": "STU-048",
+    "week": 6,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 30.7/100."
+  },
+  {
+    "student_id": "STU-049",
+    "week": 6,
+    "event_type": "FIRST_DETECTION",
+    "event_label": "First meaningful deviation",
+    "description": "The predefined early-warning criteria were first met."
+  },
+  {
+    "student_id": "STU-049",
+    "week": 6,
+    "event_type": "CONVERGENCE",
+    "event_label": "Multi-signal convergence",
+    "description": "At least two independent behavioral signals were simultaneously meaningful."
+  },
+  {
+    "student_id": "STU-049",
+    "week": 6,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 37.3/100."
+  },
+  {
+    "student_id": "STU-050",
+    "week": 6,
+    "event_type": "PEAK_RISK",
+    "event_label": "Peak observed risk",
+    "description": "Observed weekly behavioral risk reached 24.9/100."
+  }
+]

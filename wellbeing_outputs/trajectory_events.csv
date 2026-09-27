@@ -1,0 +1,134 @@
+student_id,week,event_type,event_label,description
+STU-001,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-001,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-001,5,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 59.6/100.
+STU-002,7,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-002,7,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-002,7,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 40.7/100.
+STU-003,2,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 32.6/100.
+STU-003,8,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-003,8,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-004,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-004,6,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-004,8,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 57.0/100.
+STU-005,7,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-005,7,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-005,7,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 33.3/100.
+STU-006,3,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 32.5/100.
+STU-007,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-007,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-007,8,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 83.0/100.
+STU-008,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-008,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-008,6,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 48.5/100.
+STU-009,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-009,6,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-009,6,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 89.5/100.
+STU-010,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-010,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-010,7,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 49.9/100.
+STU-011,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-011,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-011,5,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 39.8/100.
+STU-012,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-012,6,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-012,7,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 84.4/100.
+STU-013,8,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-013,8,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-013,8,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 38.8/100.
+STU-014,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-014,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-014,5,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 39.2/100.
+STU-015,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-015,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-015,7,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 57.7/100.
+STU-016,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-016,6,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-016,6,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 32.7/100.
+STU-017,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-017,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-017,5,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 37.2/100.
+STU-018,5,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 31.9/100.
+STU-019,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-019,6,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-019,8,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 78.7/100.
+STU-020,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-020,6,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-020,6,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 47.0/100.
+STU-021,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-021,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-021,5,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 42.1/100.
+STU-022,4,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 29.5/100.
+STU-023,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-023,6,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-023,9,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 66.1/100.
+STU-024,8,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 26.5/100.
+STU-025,8,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-025,8,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-025,9,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 32.9/100.
+STU-026,1,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 38.3/100.
+STU-026,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-026,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-027,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-027,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-027,5,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 41.4/100.
+STU-028,7,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-028,7,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-028,8,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 80.8/100.
+STU-029,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-029,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-029,8,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 37.9/100.
+STU-030,3,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 26.3/100.
+STU-030,7,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-030,7,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-031,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-031,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-031,8,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 88.6/100.
+STU-032,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-032,6,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-032,6,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 44.5/100.
+STU-033,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-033,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-033,5,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 59.9/100.
+STU-034,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-034,6,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-034,6,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 34.1/100.
+STU-035,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-035,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-035,5,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 41.5/100.
+STU-036,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-036,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-036,8,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 57.5/100.
+STU-037,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-037,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-037,5,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 34.3/100.
+STU-038,1,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 23.1/100.
+STU-039,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-039,9,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 28.4/100.
+STU-040,7,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-040,7,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-040,7,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 48.3/100.
+STU-041,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-041,6,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-041,8,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 34.6/100.
+STU-042,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-042,7,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-042,9,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 74.0/100.
+STU-043,1,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 25.7/100.
+STU-044,9,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-044,9,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-044,9,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 38.5/100.
+STU-045,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-045,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-045,5,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 41.0/100.
+STU-046,5,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-046,5,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-046,5,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 52.0/100.
+STU-047,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-047,6,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-047,7,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 91.1/100.
+STU-048,6,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 30.7/100.
+STU-049,6,FIRST_DETECTION,First meaningful deviation,The predefined early-warning criteria were first met.
+STU-049,6,CONVERGENCE,Multi-signal convergence,At least two independent behavioral signals were simultaneously meaningful.
+STU-049,6,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 37.3/100.
+STU-050,6,PEAK_RISK,Peak observed risk,Observed weekly behavioral risk reached 24.9/100.

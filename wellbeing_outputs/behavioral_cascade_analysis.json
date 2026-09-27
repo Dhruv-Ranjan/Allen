@@ -1,0 +1,2207 @@
+[
+  {
+    "student_id": "STU-001",
+    "cascade_start_week": 5,
+    "cascade_end_week": 5,
+    "cascade_duration": 1,
+    "cascade_depth": 5,
+    "leading_signal": "digital_timing_shift",
+    "second_signal": "extracurricular_activity",
+    "signal_onset_order": [
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 5
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 5
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 5
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 5
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 5
+      }
+    ],
+    "new_signals_per_week": 5.0,
+    "convergence_week": 5,
+    "convergence_strength": 45.45,
+    "cascade_velocity": 5.0,
+    "first_deviation_week": 5,
+    "earliest_signal": "schedule_changes",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-002",
+    "cascade_start_week": 5,
+    "cascade_end_week": 6,
+    "cascade_duration": 2,
+    "cascade_depth": 2,
+    "leading_signal": "class_participation",
+    "second_signal": "schedule_changes",
+    "signal_onset_order": [
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 5
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 6
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": 7,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": 7,
+    "earliest_signal": "class_participation",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 2
+  },
+  {
+    "student_id": "STU-003",
+    "cascade_start_week": 5,
+    "cascade_end_week": 8,
+    "cascade_duration": 4,
+    "cascade_depth": 4,
+    "leading_signal": "transport_irregularity",
+    "second_signal": "meal_usage",
+    "signal_onset_order": [
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 5
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 6
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 7
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": 8,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": 8,
+    "earliest_signal": "transport_irregularity",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 1
+  },
+  {
+    "student_id": "STU-004",
+    "cascade_start_week": 5,
+    "cascade_end_week": 8,
+    "cascade_duration": 4,
+    "cascade_depth": 6,
+    "leading_signal": "lms_session_duration",
+    "second_signal": "academic_help_requests",
+    "signal_onset_order": [
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 5
+      },
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 6
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 7
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 7
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 8
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 1.5,
+    "convergence_week": 6,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.5,
+    "first_deviation_week": 6,
+    "earliest_signal": "academic_help_requests",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-005",
+    "cascade_start_week": 5,
+    "cascade_end_week": 7,
+    "cascade_duration": 3,
+    "cascade_depth": 3,
+    "leading_signal": "extracurricular_activity",
+    "second_signal": "library_resource_usage",
+    "signal_onset_order": [
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 5
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 6
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 7
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": 7,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": 7,
+    "earliest_signal": "schedule_changes",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 2
+  },
+  {
+    "student_id": "STU-006",
+    "cascade_start_week": 9,
+    "cascade_end_week": 9,
+    "cascade_duration": 1,
+    "cascade_depth": 1,
+    "leading_signal": "arrival_irregularity",
+    "second_signal": "NONE",
+    "signal_onset_order": [
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": -1,
+    "convergence_strength": 0.0,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": -1,
+    "earliest_signal": "NONE",
+    "deviation_detection_type": "NONE",
+    "early_warning_window": 0
+  },
+  {
+    "student_id": "STU-007",
+    "cascade_start_week": 5,
+    "cascade_end_week": 8,
+    "cascade_duration": 4,
+    "cascade_depth": 10,
+    "leading_signal": "academic_help_requests",
+    "second_signal": "digital_timing_shift",
+    "signal_onset_order": [
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 5
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 5
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 5
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 6
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 6
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 7
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 7
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 8
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 2.5,
+    "convergence_week": 5,
+    "convergence_strength": 36.36,
+    "cascade_velocity": 2.5,
+    "first_deviation_week": 5,
+    "earliest_signal": "early_departures",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-008",
+    "cascade_start_week": 5,
+    "cascade_end_week": 9,
+    "cascade_duration": 5,
+    "cascade_depth": 7,
+    "leading_signal": "academic_help_requests",
+    "second_signal": "library_resource_usage",
+    "signal_onset_order": [
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 5
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 6
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 6
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 6
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 8
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 1.4,
+    "convergence_week": 5,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.4,
+    "first_deviation_week": 5,
+    "earliest_signal": "library_resource_usage",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-009",
+    "cascade_start_week": 6,
+    "cascade_end_week": 7,
+    "cascade_duration": 2,
+    "cascade_depth": 9,
+    "leading_signal": "class_participation",
+    "second_signal": "digital_timing_shift",
+    "signal_onset_order": [
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 6
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 6
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 6
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 6
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 6
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 6
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 6
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 6
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 7
+      }
+    ],
+    "new_signals_per_week": 4.5,
+    "convergence_week": 6,
+    "convergence_strength": 72.73,
+    "cascade_velocity": 4.5,
+    "first_deviation_week": 6,
+    "earliest_signal": "class_participation",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-010",
+    "cascade_start_week": 5,
+    "cascade_end_week": 7,
+    "cascade_duration": 3,
+    "cascade_depth": 7,
+    "leading_signal": "lms_session_duration",
+    "second_signal": "meal_usage",
+    "signal_onset_order": [
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 5
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 5
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 5
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 7
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 7
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 7
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 7
+      }
+    ],
+    "new_signals_per_week": 2.333,
+    "convergence_week": 5,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 2.333,
+    "first_deviation_week": 5,
+    "earliest_signal": "transport_irregularity",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-011",
+    "cascade_start_week": 5,
+    "cascade_end_week": 9,
+    "cascade_duration": 5,
+    "cascade_depth": 7,
+    "leading_signal": "extracurricular_activity",
+    "second_signal": "library_resource_usage",
+    "signal_onset_order": [
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 5
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 5
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 5
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 6
+      },
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 7
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 8
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 1.4,
+    "convergence_week": 5,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 1.4,
+    "first_deviation_week": 5,
+    "earliest_signal": "extracurricular_activity",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-012",
+    "cascade_start_week": 5,
+    "cascade_end_week": 7,
+    "cascade_duration": 3,
+    "cascade_depth": 8,
+    "leading_signal": "meal_usage",
+    "second_signal": "arrival_irregularity",
+    "signal_onset_order": [
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 5
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 6
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 6
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 6
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 7
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 7
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 7
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 7
+      }
+    ],
+    "new_signals_per_week": 2.667,
+    "convergence_week": 6,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 2.667,
+    "first_deviation_week": 6,
+    "earliest_signal": "lms_session_duration",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-013",
+    "cascade_start_week": 6,
+    "cascade_end_week": 8,
+    "cascade_duration": 3,
+    "cascade_depth": 3,
+    "leading_signal": "schedule_changes",
+    "second_signal": "library_resource_usage",
+    "signal_onset_order": [
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 6
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 8
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": 8,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": 8,
+    "earliest_signal": "transport_irregularity",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 1
+  },
+  {
+    "student_id": "STU-014",
+    "cascade_start_week": 5,
+    "cascade_end_week": 8,
+    "cascade_duration": 4,
+    "cascade_depth": 4,
+    "leading_signal": "class_participation",
+    "second_signal": "meal_usage",
+    "signal_onset_order": [
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 5
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 5
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 7
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": 5,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": 5,
+    "earliest_signal": "class_participation",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-015",
+    "cascade_start_week": 5,
+    "cascade_end_week": 9,
+    "cascade_duration": 5,
+    "cascade_depth": 8,
+    "leading_signal": "arrival_irregularity",
+    "second_signal": "digital_timing_shift",
+    "signal_onset_order": [
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 5
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 5
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 6
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 7
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 7
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 8
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 1.6,
+    "convergence_week": 5,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 1.6,
+    "first_deviation_week": 5,
+    "earliest_signal": "arrival_irregularity",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-016",
+    "cascade_start_week": 5,
+    "cascade_end_week": 6,
+    "cascade_duration": 2,
+    "cascade_depth": 2,
+    "leading_signal": "lms_session_duration",
+    "second_signal": "transport_irregularity",
+    "signal_onset_order": [
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 5
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 6
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": 6,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": 6,
+    "earliest_signal": "lms_session_duration",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-017",
+    "cascade_start_week": 5,
+    "cascade_end_week": 8,
+    "cascade_duration": 4,
+    "cascade_depth": 3,
+    "leading_signal": "arrival_irregularity",
+    "second_signal": "digital_timing_shift",
+    "signal_onset_order": [
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 5
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 0.75,
+    "convergence_week": 5,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 0.75,
+    "first_deviation_week": 5,
+    "earliest_signal": "arrival_irregularity",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-018",
+    "cascade_start_week": 7,
+    "cascade_end_week": 9,
+    "cascade_duration": 3,
+    "cascade_depth": 2,
+    "leading_signal": "early_departures",
+    "second_signal": "schedule_changes",
+    "signal_onset_order": [
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 7
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 0.667,
+    "convergence_week": -1,
+    "convergence_strength": 0.0,
+    "cascade_velocity": 0.667,
+    "first_deviation_week": -1,
+    "earliest_signal": "NONE",
+    "deviation_detection_type": "NONE",
+    "early_warning_window": 0
+  },
+  {
+    "student_id": "STU-019",
+    "cascade_start_week": 5,
+    "cascade_end_week": 8,
+    "cascade_duration": 4,
+    "cascade_depth": 9,
+    "leading_signal": "early_departures",
+    "second_signal": "digital_timing_shift",
+    "signal_onset_order": [
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 6
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 6
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 6
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 7
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 7
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 7
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 8
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 2.25,
+    "convergence_week": 6,
+    "convergence_strength": 36.36,
+    "cascade_velocity": 2.25,
+    "first_deviation_week": 6,
+    "earliest_signal": "lms_session_duration",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-020",
+    "cascade_start_week": 5,
+    "cascade_end_week": 9,
+    "cascade_duration": 5,
+    "cascade_depth": 6,
+    "leading_signal": "early_departures",
+    "second_signal": "digital_timing_shift",
+    "signal_onset_order": [
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 6
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 6
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 6
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 7
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 1.2,
+    "convergence_week": 6,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 1.2,
+    "first_deviation_week": 6,
+    "earliest_signal": "digital_timing_shift",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-021",
+    "cascade_start_week": 5,
+    "cascade_end_week": 9,
+    "cascade_duration": 5,
+    "cascade_depth": 7,
+    "leading_signal": "class_participation",
+    "second_signal": "lms_session_duration",
+    "signal_onset_order": [
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 5
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 7
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 7
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 8
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 9
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 1.4,
+    "convergence_week": 5,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.4,
+    "first_deviation_week": 5,
+    "earliest_signal": "class_participation",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-022",
+    "cascade_start_week": 8,
+    "cascade_end_week": 9,
+    "cascade_duration": 2,
+    "cascade_depth": 2,
+    "leading_signal": "meal_usage",
+    "second_signal": "early_departures",
+    "signal_onset_order": [
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 8
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": -1,
+    "convergence_strength": 0.0,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": -1,
+    "earliest_signal": "NONE",
+    "deviation_detection_type": "NONE",
+    "early_warning_window": 0
+  },
+  {
+    "student_id": "STU-023",
+    "cascade_start_week": 6,
+    "cascade_end_week": 9,
+    "cascade_duration": 4,
+    "cascade_depth": 6,
+    "leading_signal": "arrival_irregularity",
+    "second_signal": "early_departures",
+    "signal_onset_order": [
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 6
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 6
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 6
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 6
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 7
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 1.5,
+    "convergence_week": 6,
+    "convergence_strength": 36.36,
+    "cascade_velocity": 1.5,
+    "first_deviation_week": 6,
+    "earliest_signal": "schedule_changes",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-024",
+    "cascade_start_week": 5,
+    "cascade_end_week": 7,
+    "cascade_duration": 3,
+    "cascade_depth": 3,
+    "leading_signal": "early_departures",
+    "second_signal": "transport_irregularity",
+    "signal_onset_order": [
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 5
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 6
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 7
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": -1,
+    "convergence_strength": 0.0,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": -1,
+    "earliest_signal": "NONE",
+    "deviation_detection_type": "NONE",
+    "early_warning_window": 0
+  },
+  {
+    "student_id": "STU-025",
+    "cascade_start_week": 5,
+    "cascade_end_week": 9,
+    "cascade_duration": 5,
+    "cascade_depth": 5,
+    "leading_signal": "transport_irregularity",
+    "second_signal": "digital_timing_shift",
+    "signal_onset_order": [
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 8
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 8
+      },
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 9
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": 8,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": 8,
+    "earliest_signal": "digital_timing_shift",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 1
+  },
+  {
+    "student_id": "STU-026",
+    "cascade_start_week": 5,
+    "cascade_end_week": 7,
+    "cascade_duration": 3,
+    "cascade_depth": 4,
+    "leading_signal": "arrival_irregularity",
+    "second_signal": "library_resource_usage",
+    "signal_onset_order": [
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 5
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 6
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 7
+      }
+    ],
+    "new_signals_per_week": 1.333,
+    "convergence_week": 5,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.333,
+    "first_deviation_week": 5,
+    "earliest_signal": "arrival_irregularity",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-027",
+    "cascade_start_week": 5,
+    "cascade_end_week": 8,
+    "cascade_duration": 4,
+    "cascade_depth": 5,
+    "leading_signal": "arrival_irregularity",
+    "second_signal": "early_departures",
+    "signal_onset_order": [
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 5
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 5
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 5
+      },
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 6
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 1.25,
+    "convergence_week": 5,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 1.25,
+    "first_deviation_week": 5,
+    "earliest_signal": "extracurricular_activity",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-028",
+    "cascade_start_week": 5,
+    "cascade_end_week": 7,
+    "cascade_duration": 3,
+    "cascade_depth": 8,
+    "leading_signal": "meal_usage",
+    "second_signal": "arrival_irregularity",
+    "signal_onset_order": [
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 5
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 7
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 7
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 7
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 7
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 7
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 7
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 7
+      }
+    ],
+    "new_signals_per_week": 2.667,
+    "convergence_week": 7,
+    "convergence_strength": 72.73,
+    "cascade_velocity": 2.667,
+    "first_deviation_week": 7,
+    "earliest_signal": "early_departures",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 2
+  },
+  {
+    "student_id": "STU-029",
+    "cascade_start_week": 5,
+    "cascade_end_week": 8,
+    "cascade_duration": 4,
+    "cascade_depth": 5,
+    "leading_signal": "academic_help_requests",
+    "second_signal": "class_participation",
+    "signal_onset_order": [
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 5
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 5
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 6
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 1.25,
+    "convergence_week": 5,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 1.25,
+    "first_deviation_week": 5,
+    "earliest_signal": "academic_help_requests",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-030",
+    "cascade_start_week": 6,
+    "cascade_end_week": 7,
+    "cascade_duration": 2,
+    "cascade_depth": 3,
+    "leading_signal": "arrival_irregularity",
+    "second_signal": "meal_usage",
+    "signal_onset_order": [
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 6
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 7
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 7
+      }
+    ],
+    "new_signals_per_week": 1.5,
+    "convergence_week": 7,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.5,
+    "first_deviation_week": 7,
+    "earliest_signal": "meal_usage",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 2
+  },
+  {
+    "student_id": "STU-031",
+    "cascade_start_week": 5,
+    "cascade_end_week": 9,
+    "cascade_duration": 5,
+    "cascade_depth": 11,
+    "leading_signal": "class_participation",
+    "second_signal": "extracurricular_activity",
+    "signal_onset_order": [
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 5
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 5
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 5
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 6
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 6
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 6
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 6
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 6
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 7
+      },
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 8
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 2.2,
+    "convergence_week": 5,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 2.2,
+    "first_deviation_week": 5,
+    "earliest_signal": "class_participation",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-032",
+    "cascade_start_week": 5,
+    "cascade_end_week": 6,
+    "cascade_duration": 2,
+    "cascade_depth": 4,
+    "leading_signal": "lms_session_duration",
+    "second_signal": "academic_help_requests",
+    "signal_onset_order": [
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 5
+      },
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 6
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 6
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 6
+      }
+    ],
+    "new_signals_per_week": 2.0,
+    "convergence_week": 6,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 2.0,
+    "first_deviation_week": 6,
+    "earliest_signal": "academic_help_requests",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-033",
+    "cascade_start_week": 5,
+    "cascade_end_week": 7,
+    "cascade_duration": 3,
+    "cascade_depth": 7,
+    "leading_signal": "academic_help_requests",
+    "second_signal": "digital_timing_shift",
+    "signal_onset_order": [
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 5
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 5
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 6
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 7
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 7
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 7
+      }
+    ],
+    "new_signals_per_week": 2.333,
+    "convergence_week": 5,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 2.333,
+    "first_deviation_week": 5,
+    "earliest_signal": "meal_usage",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-034",
+    "cascade_start_week": 5,
+    "cascade_end_week": 9,
+    "cascade_duration": 5,
+    "cascade_depth": 3,
+    "leading_signal": "meal_usage",
+    "second_signal": "extracurricular_activity",
+    "signal_onset_order": [
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 5
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 6
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 0.6,
+    "convergence_week": 6,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 0.6,
+    "first_deviation_week": 6,
+    "earliest_signal": "extracurricular_activity",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-035",
+    "cascade_start_week": 5,
+    "cascade_end_week": 8,
+    "cascade_duration": 4,
+    "cascade_depth": 4,
+    "leading_signal": "meal_usage",
+    "second_signal": "transport_irregularity",
+    "signal_onset_order": [
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 5
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 5
+      },
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 8
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": 5,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": 5,
+    "earliest_signal": "meal_usage",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-036",
+    "cascade_start_week": 5,
+    "cascade_end_week": 9,
+    "cascade_duration": 5,
+    "cascade_depth": 9,
+    "leading_signal": "academic_help_requests",
+    "second_signal": "extracurricular_activity",
+    "signal_onset_order": [
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 5
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 5
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 5
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 6
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 6
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 7
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 8
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 8
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 1.8,
+    "convergence_week": 5,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 1.8,
+    "first_deviation_week": 5,
+    "earliest_signal": "library_resource_usage",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-037",
+    "cascade_start_week": 5,
+    "cascade_end_week": 5,
+    "cascade_duration": 1,
+    "cascade_depth": 2,
+    "leading_signal": "arrival_irregularity",
+    "second_signal": "meal_usage",
+    "signal_onset_order": [
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 5
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 5
+      }
+    ],
+    "new_signals_per_week": 2.0,
+    "convergence_week": 5,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 2.0,
+    "first_deviation_week": 5,
+    "earliest_signal": "meal_usage",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-038",
+    "cascade_start_week": 5,
+    "cascade_end_week": 7,
+    "cascade_duration": 3,
+    "cascade_depth": 2,
+    "leading_signal": "arrival_irregularity",
+    "second_signal": "digital_timing_shift",
+    "signal_onset_order": [
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 7
+      }
+    ],
+    "new_signals_per_week": 0.667,
+    "convergence_week": -1,
+    "convergence_strength": 0.0,
+    "cascade_velocity": 0.667,
+    "first_deviation_week": -1,
+    "earliest_signal": "NONE",
+    "deviation_detection_type": "NONE",
+    "early_warning_window": 0
+  },
+  {
+    "student_id": "STU-039",
+    "cascade_start_week": 6,
+    "cascade_end_week": 8,
+    "cascade_duration": 3,
+    "cascade_depth": 2,
+    "leading_signal": "lms_session_duration",
+    "second_signal": "extracurricular_activity",
+    "signal_onset_order": [
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 6
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 0.667,
+    "convergence_week": -1,
+    "convergence_strength": 0.0,
+    "cascade_velocity": 0.667,
+    "first_deviation_week": 6,
+    "earliest_signal": "lms_session_duration",
+    "deviation_detection_type": "PERSISTENT_SINGLE_SIGNAL",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-040",
+    "cascade_start_week": 6,
+    "cascade_end_week": 8,
+    "cascade_duration": 3,
+    "cascade_depth": 6,
+    "leading_signal": "meal_usage",
+    "second_signal": "early_departures",
+    "signal_onset_order": [
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 6
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 7
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 7
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 7
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 7
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 2.0,
+    "convergence_week": 7,
+    "convergence_strength": 36.36,
+    "cascade_velocity": 2.0,
+    "first_deviation_week": 7,
+    "earliest_signal": "library_resource_usage",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 2
+  },
+  {
+    "student_id": "STU-041",
+    "cascade_start_week": 6,
+    "cascade_end_week": 6,
+    "cascade_duration": 1,
+    "cascade_depth": 3,
+    "leading_signal": "academic_help_requests",
+    "second_signal": "early_departures",
+    "signal_onset_order": [
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 6
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 6
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 6
+      }
+    ],
+    "new_signals_per_week": 3.0,
+    "convergence_week": 6,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 3.0,
+    "first_deviation_week": 6,
+    "earliest_signal": "academic_help_requests",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-042",
+    "cascade_start_week": 5,
+    "cascade_end_week": 9,
+    "cascade_duration": 5,
+    "cascade_depth": 8,
+    "leading_signal": "academic_help_requests",
+    "second_signal": "lms_session_duration",
+    "signal_onset_order": [
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 5
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 7
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 8
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 8
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 8
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 9
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 9
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 1.6,
+    "convergence_week": 7,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.6,
+    "first_deviation_week": 5,
+    "earliest_signal": "academic_help_requests",
+    "deviation_detection_type": "PERSISTENT_SINGLE_SIGNAL",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-043",
+    "cascade_start_week": 8,
+    "cascade_end_week": 9,
+    "cascade_duration": 2,
+    "cascade_depth": 2,
+    "leading_signal": "transport_irregularity",
+    "second_signal": "academic_help_requests",
+    "signal_onset_order": [
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 8
+      },
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": -1,
+    "convergence_strength": 0.0,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": -1,
+    "earliest_signal": "NONE",
+    "deviation_detection_type": "NONE",
+    "early_warning_window": 0
+  },
+  {
+    "student_id": "STU-044",
+    "cascade_start_week": 5,
+    "cascade_end_week": 9,
+    "cascade_duration": 5,
+    "cascade_depth": 4,
+    "leading_signal": "class_participation",
+    "second_signal": "digital_timing_shift",
+    "signal_onset_order": [
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 5
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 6
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 9
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 9
+      }
+    ],
+    "new_signals_per_week": 0.8,
+    "convergence_week": 9,
+    "convergence_strength": 27.27,
+    "cascade_velocity": 0.8,
+    "first_deviation_week": 9,
+    "earliest_signal": "class_participation",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 0
+  },
+  {
+    "student_id": "STU-045",
+    "cascade_start_week": 5,
+    "cascade_end_week": 8,
+    "cascade_duration": 4,
+    "cascade_depth": 6,
+    "leading_signal": "digital_timing_shift",
+    "second_signal": "early_departures",
+    "signal_onset_order": [
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 5
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 5
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 5
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 5
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 6
+      },
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 1.5,
+    "convergence_week": 5,
+    "convergence_strength": 36.36,
+    "cascade_velocity": 1.5,
+    "first_deviation_week": 5,
+    "earliest_signal": "schedule_changes",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-046",
+    "cascade_start_week": 5,
+    "cascade_end_week": 8,
+    "cascade_duration": 4,
+    "cascade_depth": 4,
+    "leading_signal": "class_participation",
+    "second_signal": "transport_irregularity",
+    "signal_onset_order": [
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 5
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 5
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 6
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": 5,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": 5,
+    "earliest_signal": "class_participation",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 4
+  },
+  {
+    "student_id": "STU-047",
+    "cascade_start_week": 5,
+    "cascade_end_week": 7,
+    "cascade_duration": 3,
+    "cascade_depth": 10,
+    "leading_signal": "extracurricular_activity",
+    "second_signal": "arrival_irregularity",
+    "signal_onset_order": [
+      {
+        "signal": "extracurricular_activity",
+        "label": "Extracurricular activity",
+        "week": 5
+      },
+      {
+        "signal": "arrival_irregularity",
+        "label": "Arrival irregularity",
+        "week": 6
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 6
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 6
+      },
+      {
+        "signal": "early_departures",
+        "label": "Early departures",
+        "week": 6
+      },
+      {
+        "signal": "lms_session_duration",
+        "label": "LMS session duration",
+        "week": 6
+      },
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 6
+      },
+      {
+        "signal": "schedule_changes",
+        "label": "Schedule changes",
+        "week": 6
+      },
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 7
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 7
+      }
+    ],
+    "new_signals_per_week": 3.333,
+    "convergence_week": 6,
+    "convergence_strength": 72.73,
+    "cascade_velocity": 3.333,
+    "first_deviation_week": 6,
+    "earliest_signal": "class_participation",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-048",
+    "cascade_start_week": 6,
+    "cascade_end_week": 8,
+    "cascade_duration": 3,
+    "cascade_depth": 3,
+    "leading_signal": "digital_timing_shift",
+    "second_signal": "academic_help_requests",
+    "signal_onset_order": [
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 6
+      },
+      {
+        "signal": "academic_help_requests",
+        "label": "Academic-help requests",
+        "week": 7
+      },
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": -1,
+    "convergence_strength": 0.0,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": -1,
+    "earliest_signal": "NONE",
+    "deviation_detection_type": "NONE",
+    "early_warning_window": 0
+  },
+  {
+    "student_id": "STU-049",
+    "cascade_start_week": 5,
+    "cascade_end_week": 7,
+    "cascade_duration": 3,
+    "cascade_depth": 4,
+    "leading_signal": "meal_usage",
+    "second_signal": "library_resource_usage",
+    "signal_onset_order": [
+      {
+        "signal": "meal_usage",
+        "label": "Meal usage",
+        "week": 5
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 6
+      },
+      {
+        "signal": "digital_timing_shift",
+        "label": "Digital timing shift",
+        "week": 7
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 7
+      }
+    ],
+    "new_signals_per_week": 1.333,
+    "convergence_week": 6,
+    "convergence_strength": 18.18,
+    "cascade_velocity": 1.333,
+    "first_deviation_week": 6,
+    "earliest_signal": "meal_usage",
+    "deviation_detection_type": "MULTI_SIGNAL_CONVERGENCE",
+    "early_warning_window": 3
+  },
+  {
+    "student_id": "STU-050",
+    "cascade_start_week": 6,
+    "cascade_end_week": 8,
+    "cascade_duration": 3,
+    "cascade_depth": 3,
+    "leading_signal": "class_participation",
+    "second_signal": "library_resource_usage",
+    "signal_onset_order": [
+      {
+        "signal": "class_participation",
+        "label": "Class participation",
+        "week": 6
+      },
+      {
+        "signal": "library_resource_usage",
+        "label": "Library/resource usage",
+        "week": 7
+      },
+      {
+        "signal": "transport_irregularity",
+        "label": "Transport irregularity",
+        "week": 8
+      }
+    ],
+    "new_signals_per_week": 1.0,
+    "convergence_week": -1,
+    "convergence_strength": 0.0,
+    "cascade_velocity": 1.0,
+    "first_deviation_week": -1,
+    "earliest_signal": "NONE",
+    "deviation_detection_type": "NONE",
+    "early_warning_window": 0
+  }
+]

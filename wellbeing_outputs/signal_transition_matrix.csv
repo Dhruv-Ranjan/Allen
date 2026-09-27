@@ -1,0 +1,111 @@
+from_signal,from_label,to_signal,to_label,observed_student_count,mean_lag_weeks,median_lag_weeks,min_lag_weeks,max_lag_weeks
+lms_session_duration,LMS session duration,digital_timing_shift,Digital timing shift,14,0.8571428571428571,0.0,0,3
+lms_session_duration,LMS session duration,schedule_changes,Schedule changes,14,0.9285714285714286,0.0,0,4
+early_departures,Early departures,digital_timing_shift,Digital timing shift,12,0.3333333333333333,0.0,0,1
+early_departures,Early departures,schedule_changes,Schedule changes,12,0.75,0.5,0,3
+schedule_changes,Schedule changes,digital_timing_shift,Digital timing shift,11,0.18181818181818182,0.0,0,1
+early_departures,Early departures,lms_session_duration,LMS session duration,11,0.6363636363636364,0.0,0,3
+meal_usage,Meal usage,digital_timing_shift,Digital timing shift,11,0.7272727272727273,0.0,0,2
+arrival_irregularity,Arrival irregularity,schedule_changes,Schedule changes,11,1.0,0.0,0,3
+early_departures,Early departures,extracurricular_activity,Extracurricular activity,11,1.0,0.0,0,3
+class_participation,Class participation,digital_timing_shift,Digital timing shift,10,0.5,0.0,0,2
+extracurricular_activity,Extracurricular activity,library_resource_usage,Library/resource usage,10,0.5,0.0,0,2
+arrival_irregularity,Arrival irregularity,digital_timing_shift,Digital timing shift,10,0.6,0.0,0,2
+extracurricular_activity,Extracurricular activity,digital_timing_shift,Digital timing shift,10,0.6,0.0,0,3
+meal_usage,Meal usage,schedule_changes,Schedule changes,10,0.8,1.0,0,2
+library_resource_usage,Library/resource usage,digital_timing_shift,Digital timing shift,10,0.9,1.0,0,3
+arrival_irregularity,Arrival irregularity,early_departures,Early departures,9,0.4444444444444444,0.0,0,2
+class_participation,Class participation,meal_usage,Meal usage,9,0.8888888888888888,0.0,0,4
+extracurricular_activity,Extracurricular activity,lms_session_duration,LMS session duration,9,0.8888888888888888,0.0,0,3
+meal_usage,Meal usage,arrival_irregularity,Arrival irregularity,9,1.4444444444444444,1.0,1,2
+class_participation,Class participation,library_resource_usage,Library/resource usage,9,1.5555555555555556,1.0,0,4
+class_participation,Class participation,early_departures,Early departures,8,0.5,0.0,0,3
+class_participation,Class participation,schedule_changes,Schedule changes,8,0.75,0.5,0,2
+class_participation,Class participation,extracurricular_activity,Extracurricular activity,8,0.875,0.0,0,4
+academic_help_requests,Academic-help requests,digital_timing_shift,Digital timing shift,8,1.125,1.0,0,4
+extracurricular_activity,Extracurricular activity,schedule_changes,Schedule changes,8,1.375,1.5,0,4
+early_departures,Early departures,transport_irregularity,Transport irregularity,8,1.5,1.5,0,3
+meal_usage,Meal usage,transport_irregularity,Transport irregularity,8,1.75,2.0,0,4
+digital_timing_shift,Digital timing shift,transport_irregularity,Transport irregularity,8,1.875,2.0,1,3
+lms_session_duration,LMS session duration,meal_usage,Meal usage,7,0.42857142857142855,0.0,0,2
+early_departures,Early departures,academic_help_requests,Academic-help requests,7,0.5714285714285714,0.0,0,2
+class_participation,Class participation,lms_session_duration,LMS session duration,7,0.7142857142857143,0.0,0,3
+class_participation,Class participation,arrival_irregularity,Arrival irregularity,7,1.0,1.0,0,2
+early_departures,Early departures,meal_usage,Meal usage,7,1.0,0.0,0,4
+extracurricular_activity,Extracurricular activity,meal_usage,Meal usage,7,1.0,1.0,0,3
+library_resource_usage,Library/resource usage,schedule_changes,Schedule changes,7,1.1428571428571428,1.0,0,4
+lms_session_duration,LMS session duration,transport_irregularity,Transport irregularity,7,1.1428571428571428,1.0,0,3
+early_departures,Early departures,library_resource_usage,Library/resource usage,7,1.2857142857142858,1.0,0,3
+extracurricular_activity,Extracurricular activity,academic_help_requests,Academic-help requests,7,1.2857142857142858,1.0,0,3
+lms_session_duration,LMS session duration,class_participation,Class participation,7,1.4285714285714286,1.0,1,3
+digital_timing_shift,Digital timing shift,schedule_changes,Schedule changes,7,1.5714285714285714,1.0,1,3
+lms_session_duration,LMS session duration,library_resource_usage,Library/resource usage,7,1.8571428571428572,2.0,1,4
+class_participation,Class participation,transport_irregularity,Transport irregularity,7,2.0,2.0,0,4
+arrival_irregularity,Arrival irregularity,lms_session_duration,LMS session duration,6,0.6666666666666666,0.0,0,3
+arrival_irregularity,Arrival irregularity,extracurricular_activity,Extracurricular activity,6,0.8333333333333334,1.0,0,2
+library_resource_usage,Library/resource usage,academic_help_requests,Academic-help requests,6,0.8333333333333334,0.0,0,3
+library_resource_usage,Library/resource usage,lms_session_duration,LMS session duration,6,1.1666666666666667,0.5,0,4
+lms_session_duration,LMS session duration,academic_help_requests,Academic-help requests,6,1.1666666666666667,1.0,0,2
+meal_usage,Meal usage,library_resource_usage,Library/resource usage,6,1.1666666666666667,1.0,1,2
+extracurricular_activity,Extracurricular activity,arrival_irregularity,Arrival irregularity,6,1.3333333333333333,1.0,1,3
+schedule_changes,Schedule changes,transport_irregularity,Transport irregularity,6,1.3333333333333333,1.0,1,2
+library_resource_usage,Library/resource usage,arrival_irregularity,Arrival irregularity,6,1.5,1.0,1,3
+digital_timing_shift,Digital timing shift,library_resource_usage,Library/resource usage,6,1.6666666666666667,1.5,1,3
+early_departures,Early departures,class_participation,Class participation,6,1.6666666666666667,1.5,1,3
+library_resource_usage,Library/resource usage,transport_irregularity,Transport irregularity,6,1.6666666666666667,1.0,0,4
+meal_usage,Meal usage,early_departures,Early departures,6,1.6666666666666667,2.0,1,2
+digital_timing_shift,Digital timing shift,class_participation,Class participation,6,1.8333333333333333,2.0,1,3
+meal_usage,Meal usage,lms_session_duration,LMS session duration,6,1.8333333333333333,2.0,1,3
+schedule_changes,Schedule changes,library_resource_usage,Library/resource usage,6,1.8333333333333333,2.0,1,3
+academic_help_requests,Academic-help requests,transport_irregularity,Transport irregularity,6,2.0,2.0,1,3
+lms_session_duration,LMS session duration,extracurricular_activity,Extracurricular activity,6,2.0,1.5,1,4
+meal_usage,Meal usage,extracurricular_activity,Extracurricular activity,6,2.0,2.0,1,3
+transport_irregularity,Transport irregularity,library_resource_usage,Library/resource usage,6,2.1666666666666665,2.0,1,4
+academic_help_requests,Academic-help requests,class_participation,Class participation,6,2.3333333333333335,2.5,1,4
+arrival_irregularity,Arrival irregularity,library_resource_usage,Library/resource usage,5,0.8,0.0,0,3
+library_resource_usage,Library/resource usage,meal_usage,Meal usage,5,0.8,1.0,0,2
+arrival_irregularity,Arrival irregularity,meal_usage,Meal usage,5,1.0,0.0,0,4
+arrival_irregularity,Arrival irregularity,transport_irregularity,Transport irregularity,5,1.2,1.0,0,3
+extracurricular_activity,Extracurricular activity,class_participation,Class participation,5,1.2,1.0,1,2
+schedule_changes,Schedule changes,class_participation,Class participation,5,1.2,1.0,1,2
+library_resource_usage,Library/resource usage,class_participation,Class participation,5,1.4,1.0,1,3
+transport_irregularity,Transport irregularity,extracurricular_activity,Extracurricular activity,5,1.6,1.0,1,3
+academic_help_requests,Academic-help requests,schedule_changes,Schedule changes,5,1.8,2.0,1,3
+digital_timing_shift,Digital timing shift,arrival_irregularity,Arrival irregularity,5,1.8,2.0,1,3
+lms_session_duration,LMS session duration,arrival_irregularity,Arrival irregularity,5,1.8,2.0,1,3
+schedule_changes,Schedule changes,extracurricular_activity,Extracurricular activity,5,1.8,2.0,1,3
+digital_timing_shift,Digital timing shift,extracurricular_activity,Extracurricular activity,5,2.0,2.0,1,3
+extracurricular_activity,Extracurricular activity,transport_irregularity,Transport irregularity,5,2.2,3.0,0,4
+academic_help_requests,Academic-help requests,lms_session_duration,LMS session duration,5,2.4,2.0,2,4
+class_participation,Class participation,academic_help_requests,Academic-help requests,4,1.0,0.5,0,3
+arrival_irregularity,Arrival irregularity,academic_help_requests,Academic-help requests,4,1.25,1.0,1,2
+digital_timing_shift,Digital timing shift,academic_help_requests,Academic-help requests,4,1.25,1.0,1,2
+transport_irregularity,Transport irregularity,digital_timing_shift,Digital timing shift,4,1.25,1.0,0,3
+academic_help_requests,Academic-help requests,meal_usage,Meal usage,4,1.5,1.0,0,4
+arrival_irregularity,Arrival irregularity,class_participation,Class participation,4,1.5,1.5,1,2
+digital_timing_shift,Digital timing shift,meal_usage,Meal usage,4,2.25,2.0,1,4
+early_departures,Early departures,arrival_irregularity,Arrival irregularity,4,2.25,2.0,1,4
+meal_usage,Meal usage,class_participation,Class participation,4,2.25,2.0,2,3
+lms_session_duration,LMS session duration,early_departures,Early departures,3,1.0,1.0,1,1
+schedule_changes,Schedule changes,meal_usage,Meal usage,3,1.0,1.0,1,1
+transport_irregularity,Transport irregularity,schedule_changes,Schedule changes,3,1.0,1.0,0,2
+transport_irregularity,Transport irregularity,class_participation,Class participation,3,1.3333333333333333,1.0,1,2
+digital_timing_shift,Digital timing shift,early_departures,Early departures,3,2.0,2.0,1,3
+extracurricular_activity,Extracurricular activity,early_departures,Early departures,3,2.0,1.0,1,4
+meal_usage,Meal usage,academic_help_requests,Academic-help requests,3,2.0,2.0,1,3
+schedule_changes,Schedule changes,arrival_irregularity,Arrival irregularity,3,2.0,2.0,1,3
+digital_timing_shift,Digital timing shift,lms_session_duration,LMS session duration,3,2.3333333333333335,2.0,2,3
+library_resource_usage,Library/resource usage,early_departures,Early departures,3,2.3333333333333335,2.0,1,4
+transport_irregularity,Transport irregularity,academic_help_requests,Academic-help requests,3,2.6666666666666665,3.0,1,4
+academic_help_requests,Academic-help requests,early_departures,Early departures,3,3.0,3.0,2,4
+transport_irregularity,Transport irregularity,lms_session_duration,LMS session duration,3,3.0,3.0,3,3
+schedule_changes,Schedule changes,academic_help_requests,Academic-help requests,2,1.0,1.0,1,1
+schedule_changes,Schedule changes,early_departures,Early departures,2,1.0,1.0,1,1
+schedule_changes,Schedule changes,lms_session_duration,LMS session duration,2,1.0,1.0,1,1
+transport_irregularity,Transport irregularity,meal_usage,Meal usage,2,1.5,1.5,1,2
+academic_help_requests,Academic-help requests,arrival_irregularity,Arrival irregularity,2,2.0,2.0,1,3
+academic_help_requests,Academic-help requests,extracurricular_activity,Extracurricular activity,2,2.0,2.0,1,3
+academic_help_requests,Academic-help requests,library_resource_usage,Library/resource usage,2,2.0,2.0,1,3
+transport_irregularity,Transport irregularity,arrival_irregularity,Arrival irregularity,2,2.5,2.5,2,3
+library_resource_usage,Library/resource usage,extracurricular_activity,Extracurricular activity,1,1.0,1.0,1,1
+transport_irregularity,Transport irregularity,early_departures,Early departures,1,1.0,1.0,1,1
